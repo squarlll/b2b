@@ -89,7 +89,7 @@
   left: calc(50% - 9px);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 930px) {
   .header {
     margin-top: 0;
     background: #4AA9DF;
@@ -101,6 +101,9 @@
   .header__menu-btn {
     display: block;
     z-index: 111111;
+  }
+  .header-bg {
+    display: none;
   }
   .header__menu ul {
     width: 100vw;
@@ -176,7 +179,7 @@
   line-height: 35px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 930px) {
   .nav a {
     margin-right: 0;
   }
@@ -189,7 +192,7 @@
   z-index: 11;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 930px) {
   .header__menu ul li {
     -webkit-transform: translateY(-40px);
     -ms-transform: translateY(-40px);

@@ -31,6 +31,62 @@ $(document).ready(function(){
 		   }
 		  ]
 	});
+	$('.nuclear-power__slider__items__wrapper').slick({
+		infinite:true,
+		arrows: true,
+		slidesToShow:4,
+		speed:800,
+		prevArrow: '<div class="prev"><img src="img/icons/prev.svg" alt="" /></div>',
+		nextArrow: '<div class="next"><img src="img/icons/next.svg" alt="" /></div>',
+		responsive: [
+		    {
+		     breakpoint: 1200,
+		     settings: {
+		       slidesToShow: 3
+		     }
+		   },
+		    {
+		     breakpoint: 769,
+		     settings: {
+		       slidesToShow: 2
+		     }
+		   },
+		   {
+		     breakpoint: 550,
+		     settings: {
+		       slidesToShow: 1
+		     }
+		   }
+		  ]
+	});
+	$('.petrochemistry__slider__items__wrapper').slick({
+		infinite:true,
+		arrows: true,
+		slidesToShow:4,
+		speed:800,
+		prevArrow: '<div class="prev"><img src="img/icons/prev.svg" alt="" /></div>',
+		nextArrow: '<div class="next"><img src="img/icons/next.svg" alt="" /></div>',
+		responsive: [
+		    {
+		     breakpoint: 1200,
+		     settings: {
+		       slidesToShow: 3
+		     }
+		   },
+		    {
+		     breakpoint: 769,
+		     settings: {
+		       slidesToShow: 2
+		     }
+		   },
+		   {
+		     breakpoint: 550,
+		     settings: {
+		       slidesToShow: 1
+		     }
+		   }
+		  ]
+	});
 	$('.slider-mini').slick({
 		infinite:true,
 		dots:true,
