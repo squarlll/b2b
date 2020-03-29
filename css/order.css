@@ -1,0 +1,500 @@
+.header-bg {
+  display: none;
+}
+
+.order__main {
+  margin-top: 77px;
+}
+
+.order__title {
+  font-family: "Raleway Semibold", sans-serif;
+  font-size: 35px;
+  line-height: 102.9%;
+  color: #333333;
+}
+
+.order__img {
+  margin-top: 30px;
+}
+
+.order__img img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .order__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .order__title {
+    font-size: 20px;
+  }
+}
+
+.nuclear-power {
+  position: relative;
+  margin-top: 100px;
+}
+
+.nuclear-power h2 {
+  font-family: "Raleway Semibold", sans-serif;
+}
+
+.nuclear-power__see-all {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.nuclear-power__see-all a {
+  font-size: 16px;
+  line-height: 106.4%;
+  letter-spacing: 0.05em;
+  background: -webkit-linear-gradient(259.63deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: -o-linear-gradient(259.63deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: linear-gradient(190.37deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nuclear-power__slider__items__wrapper {
+  margin-top: 30px;
+  overflow-x: hidden;
+  height: 364px;
+  max-width: 1070px;
+}
+
+.nuclear-power__slider__items__wrapper .slick-track {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nuclear-power__slider__items__wrapper .slick-list {
+  max-width: 1070px;
+}
+
+.nuclear-power__slider__items__wrapper .slick-arrow {
+  top: 26px;
+}
+
+@media screen and (max-width: 520px) {
+  .nuclear-power__slider__items__wrapper .slick-arrow {
+    top: calc(100% + 20px);
+  }
+}
+
+.nuclear-power__slider__items__wrapper .prev {
+  right: 50px;
+}
+
+@media screen and (max-width: 520px) {
+  .nuclear-power__slider__items__wrapper .prev {
+    right: 50%;
+  }
+}
+
+.nuclear-power__slider__items__wrapper .next {
+  right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .nuclear-power__slider__items__wrapper .next {
+    right: calc(50% - 40px);
+  }
+}
+
+.nuclear-power__sliderbutton {
+  float: right;
+}
+
+.nuclear-power__slider__item {
+  margin: 3.5px;
+}
+
+.nuclear-power__inner {
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+  box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+}
+
+.nuclear-power__img {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  overflow: hidden;
+  border-radius: 30px;
+  max-height: 352px;
+}
+
+.nuclear-power__img img {
+  width: 100%;
+}
+
+.petrochemistry {
+  position: relative;
+  margin-top: 36px;
+}
+
+.petrochemistry h2 {
+  font-family: "Raleway Semibold", sans-serif;
+}
+
+.petrochemistry__see-all {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.petrochemistry__see-all a {
+  font-size: 16px;
+  line-height: 106.4%;
+  letter-spacing: 0.05em;
+  background: -webkit-linear-gradient(259.63deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: -o-linear-gradient(259.63deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: linear-gradient(190.37deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 520px) {
+  .petrochemistry {
+    margin-top: 90px;
+  }
+}
+
+.petrochemistry__slider__items__wrapper {
+  margin-top: 30px;
+  overflow-x: hidden;
+  height: 364px;
+  max-width: 1070px;
+}
+
+.petrochemistry__slider__items__wrapper .slick-track {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.petrochemistry__slider__items__wrapper .slick-list {
+  max-width: 1070px;
+}
+
+.petrochemistry__slider__items__wrapper .slick-arrow {
+  top: 26px;
+}
+
+@media screen and (max-width: 520px) {
+  .petrochemistry__slider__items__wrapper .slick-arrow {
+    top: calc(100% + 20px);
+  }
+}
+
+.petrochemistry__slider__items__wrapper .prev {
+  right: 50px;
+}
+
+@media screen and (max-width: 520px) {
+  .petrochemistry__slider__items__wrapper .prev {
+    right: 50%;
+  }
+}
+
+.petrochemistry__slider__items__wrapper .next {
+  right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .petrochemistry__slider__items__wrapper .next {
+    right: calc(50% - 40px);
+  }
+}
+
+.petrochemistry__sliderbutton {
+  float: right;
+}
+
+.petrochemistry__slider__item {
+  margin: 3.5px;
+}
+
+.petrochemistry__inner {
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+  box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+}
+
+.petrochemistry__img {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  overflow: hidden;
+  border-radius: 30px;
+  max-height: 352px;
+}
+
+.petrochemistry__img img {
+  width: 100%;
+}
+
+.order-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 68px;
+  background: -webkit-linear-gradient(253.66deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: -o-linear-gradient(253.66deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  background: linear-gradient(196.34deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+  max-width: 1440px;
+  padding-top: 83px;
+  padding-bottom: 39px;
+}
+
+.order-check form {
+  max-width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+  .order-check {
+    margin-top: 100px;
+  }
+}
+
+.order-check__header {
+  text-align: center;
+  color: white;
+}
+
+.order-check__header {
+  font-size: 20px;
+}
+
+.order-check__subheader {
+  margin-top: 65px;
+}
+
+@media screen and (max-width: 530px) {
+  .order-check__subheader {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .order-check__subheader {
+    margin-top: 24px;
+  }
+}
+
+.order-check__header {
+  font-family: "Raleway Semibold", sans-serif;
+  font-size: 35px;
+  line-height: 1.171428571428571;
+}
+
+@media screen and (max-width: 840px) {
+  .order-check__header {
+    font-size: 25px;
+  }
+}
+
+.order-check input {
+  margin: 10px;
+}
+
+.order-check .file_hidden {
+  margin: 0;
+}
+
+.order-check .inputfields {
+  width: 825px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.order-check .inputfields__block {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .order-check .inputfields__block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.order-check .editfield {
+  background: none;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 250px;
+  max-width: 33.33%;
+  height: 38px;
+  display: inline-block;
+  border: 1px solid #E0E0E0;
+  color: #E0E0E0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.order-check .editfield::-webkit-input-placeholder {
+  color: #E0E0E0;
+}
+
+.order-check .editfield:-ms-input-placeholder {
+  color: #E0E0E0;
+}
+
+.order-check .editfield::-ms-input-placeholder {
+  color: #E0E0E0;
+}
+
+.order-check .editfield::placeholder {
+  color: #E0E0E0;
+}
+
+@media screen and (max-width: 630px) {
+  .order-check .editfield {
+    width: 34.33%;
+    max-width: 34.33%;
+    margin: 10px 5px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .order-check .editfield {
+    max-width: calc(50% - 10px);
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+  .order-check .editfield:last-child {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.seo {
+  margin-top: 100px;
+}
+
+.seo__title {
+  font-family: "Raleway Semibold", sans-serif;
+  font-size: 35px;
+  line-height: 41px;
+  color: #2D9CDB;
+}
+
+.seo__columns {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .seo__columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.seo__column {
+  font-size: 16px;
+  line-height: 140.9%;
+  color: #828282;
+}
+
+.seo__column:nth-child(1) {
+  padding-right: 12.5px;
+}
+
+@media screen and (max-width: 760px) {
+  .seo__column:nth-child(1) {
+    padding: 0;
+  }
+}
+
+.seo__column:nth-child(2) {
+  padding-left: 12.5px;
+}
+
+@media screen and (max-width: 760px) {
+  .seo__column:nth-child(2) {
+    padding: 0;
+    margin-top: 12px;
+  }
+}

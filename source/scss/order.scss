@@ -1,0 +1,338 @@
+$semibold:'Raleway Semibold', sans-serif;
+// mixins
+@mixin gradient($property) {
+    background: $property;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-bg{
+    display: none;
+}
+.order{
+    &__main{
+        margin-top: 77px;
+    }
+    &__title{
+        font-family: $semibold;
+        font-size: 35px;
+        line-height: 102.9%;
+        color: #333333;
+    }
+    &__img{
+        margin-top: 30px;
+        & img{
+            max-width: 100%;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        &__title{
+            font-size: 28px;
+        }
+    }
+    @media screen and (max-width: 420px) {
+        &__title{
+            font-size: 20px;
+        }
+    }
+}
+.nuclear-power{
+    position: relative;
+    margin-top: 100px;
+    & h2{
+        font-family: $semibold;
+    }
+    &__see-all{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+        & a{
+            font-size: 16px;
+            line-height: 106.4%;
+            letter-spacing: 0.05em;
+            @include gradient(linear-gradient(190.37deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%));
+        }
+    }
+}
+.nuclear-power__slider__items__wrapper{
+    margin-top: 30px;
+    overflow-x: hidden;
+    height: 364px;
+    max-width: 1070px;
+    .slick-track{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    .slick-list {
+        max-width: 1070px;
+    }
+    .slick-arrow{
+        top: 26px;
+        @media screen and (max-width: 520px) {
+            top: calc(100% + 20px);
+        }
+    }
+    .prev{
+        right: 50px;
+        @media screen and (max-width: 520px) {
+            right: 50%;
+        }
+    }
+    .next{
+        right: 10px;
+        @media screen and (max-width: 520px) {
+            right: calc(50% - 40px);
+        }
+    }
+}
+.nuclear-power__sliderbutton {
+    float: right;
+}
+.nuclear-power__slider__item{
+    margin: 3.5px;
+}
+.nuclear-power__inner{
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+}
+.nuclear-power__img{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    border-radius: 30px;
+    max-height: 352px;
+    & img{
+        width: 100%;
+    }
+}
+.petrochemistry{
+    position: relative;
+    margin-top: 36px;
+    & h2{
+        font-family: $semibold;
+    }
+    &__see-all{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+        & a{
+            font-size: 16px;
+            line-height: 106.4%;
+            letter-spacing: 0.05em;
+            @include gradient(linear-gradient(190.37deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%));
+        }
+    }
+    @media screen and (max-width: 520px) {
+        margin-top: 90px;
+    }
+}
+.petrochemistry__slider__items__wrapper{
+    margin-top: 30px;
+    overflow-x: hidden;
+    height: 364px;
+    max-width: 1070px;
+    .slick-track{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    .slick-list {
+        max-width: 1070px;
+    }
+    .slick-arrow{
+        top: 26px;
+        @media screen and (max-width: 520px) {
+            top: calc(100% + 20px);
+        }
+    }
+    .prev{
+        right: 50px;
+        @media screen and (max-width: 520px) {
+            right: 50%;
+        }
+    }
+    .next{
+        right: 10px;
+        @media screen and (max-width: 520px) {
+            right: calc(50% - 40px);
+        }
+    }
+}
+.petrochemistry__sliderbutton {
+    float: right;
+}
+.petrochemistry__slider__item{
+    margin: 3.5px;
+}
+.petrochemistry__inner{
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(45, 156, 219, 0.13);
+}
+.petrochemistry__img{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    border-radius: 30px;
+    max-height: 352px;
+    & img{
+        width: 100%;
+    }
+}
+.order-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 68px;
+    background: linear-gradient(196.34deg, #2D9CDB 1%, rgba(21, 73, 173, 0.54) 101.18%);
+    max-width: 1440px;
+    padding-top: 83px;
+    padding-bottom: 39px;
+    & form{
+        max-width: 100%;
+        text-align: center;
+    }
+    @media screen and (max-width: 520px) {
+        margin-top: 100px;
+    }
+}
+
+.order-check__header {
+    text-align: center;
+    color: white;
+}
+.order-check__header{
+    font-size: 20px;
+}
+.order-check__subheader {
+    margin-top: 65px;
+    @media screen and (max-width: 530px){
+        margin-top: 48px;
+    }
+    @media screen and (max-width: 430px){
+        margin-top: 24px;
+    }
+}
+
+.order-check__header {
+    font-family: $semibold;
+    font-size: 35px;
+    line-height: 1.171428571428571;
+    @media screen and (max-width: 840px){
+        font-size: 25px;
+    }
+}
+.order-check input {
+    margin: 10px;
+}
+.order-check .file_hidden {
+    margin: 0;
+}
+.order-check .inputfields {
+    width: 825px;
+    max-width: 100%;
+    margin: 0 auto;
+    &__block{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        margin-top: 14px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 430px) {
+            flex-wrap: wrap;
+        }
+    }
+}
+.order-check .editfield {
+    background: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 250px;
+    max-width: 33.33%;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #E0E0E0;
+    color: #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    &::placeholder{
+        color: #E0E0E0;
+    }
+    @media screen and (max-width: 630px) {
+        width: 34.33%;
+        max-width: 34.33%;
+        margin: 10px 5px;
+    }
+    @media screen and (max-width: 430px) {
+        max-width: calc(50% - 10px);
+        width: calc(50% - 10px);
+        margin: 5px;
+        &:last-child{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+.seo{
+    margin-top: 100px;
+    &__title{
+        font-family: $semibold;
+        font-size: 35px;
+        line-height: 41px;
+        color: #2D9CDB;
+    }
+    &__columns{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex: 1 1;
+        margin-top: 20px;
+        @media screen and (max-width: 760px) {
+            flex-direction: column;
+        }
+    }
+    &__column{
+        font-size: 16px;
+        line-height: 140.9%;
+        color: #828282;
+        &:nth-child(1){
+            padding-right: 12.5px;
+            @media screen and (max-width: 760px) {
+                padding: 0;
+            }
+        }
+        &:nth-child(2){
+            padding-left: 12.5px;
+            @media screen and (max-width: 760px) {
+                padding: 0;
+                margin-top: 12px;
+            }
+        }
+    }
+}
